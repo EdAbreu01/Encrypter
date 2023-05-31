@@ -1,7 +1,8 @@
 body {
     margin: 0px;
-  
-background:  rgb(72, 97, 102) 
+    background-image: url("/Users/edwardabreu/Documents/code/Encrypt Alura/images/8289979_25331.jpg");
+    background-size: 50%;
+
 }
 
 section {
@@ -78,7 +79,8 @@ input {
 
     @media only screen and (max-width: 1000px) {
         body {
-          background-color: rgb(192, 15, 15);
+            background-image: url("/Users/edwardabreu/Documents/code/Encrypt Alura/images/8289979_25331.jpg");
+            background-size: 60%;
         }
 
         section {
@@ -96,7 +98,8 @@ input {
 
       @media only screen and (max-width: 850px) {
         body {
-          background-color: rgb(243, 123, 10);
+            background-image: url("/Users/edwardabreu/Documents/code/Encrypt Alura/images/8289979_25331.jpg");
+            background-size: 50%;
         }
 
         section {
@@ -114,7 +117,8 @@ input {
 
       @media only screen and (max-width: 600px) {
         body {
-          background-color: rgb(10, 243, 243);
+            background-image: url("/Users/edwardabreu/Documents/code/Encrypt Alura/images/8289979_25331.jpg");
+            background-size: 70%;
         }
 
         section {
