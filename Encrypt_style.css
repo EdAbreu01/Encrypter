@@ -1,16 +1,15 @@
 body {
-    margin: 0px;
-
-    /*background-image: url("/Users/edwardabreu/Documents/code/Encrypt Alura/images/8289979_25331.jpg");
-    background-size: 50%;
-    */
-    background-color: #e8e8e8;
+margin: 0px;
+/*background-image: url("/Users/edwardabreu/Documents/codeEncrypt Alura/images/8289979_25331.jpg");
+background-size: 50%;
+*/
+background-color: #e8e8e8;
 
 }
 
 section {
-    margin: auto;
-    margin-top: 230px;
+margin: auto;
+ margin-top: 230px;
     width: 1000px;
     height: max-content;
     border: solid #aeaeae 1px ;
@@ -102,9 +101,11 @@ background-color: #e8e8e8;
 .textarea2:focus {
     outline: none;
 }
-    .buttons{
-        display: inline-block;
-    background-color: antiquewhite;   
+
+
+.buttons{
+ display: inline-block;
+background-color: antiquewhite;   
 width: 100%;
 height: max-content }
 
@@ -147,29 +148,22 @@ height: max-content }
                 }
 
 
-input {
-    padding: 18px 0px;
-    width: 100%;
-    margin: auto 0 ;
-    border: solid #131313 1px ;
-    border-radius: 8px;
-    font-size: 16px;
-    font-family: 'Quicksand', sans-serif;
-    border: none;
-    background-color: rgb(47, 176, 246);
-    }
+.boton1:hover{
+    background-color: rgb(14, 118, 174); 
+}
 
+.boton2:hover{
+    background-color: rgb(14, 118, 174); 
+}
 
-
-
+.botoncopiar:hover{
+    background-color: rgb(246, 173, 47);
+}
 
 
 
     @media only screen and (max-width: 1000px) {
-        body {
-            background-image: url("/Users/edwardabreu/Documents/code/Encrypt Alura/images/8289979_25331.jpg");
-            background-size: 60%;
-        }
+
 
         section {
             margin: auto;
@@ -185,10 +179,7 @@ input {
       }
 
       @media only screen and (max-width: 850px) {
-        body {
-            background-image: url("/Users/edwardabreu/Documents/code/Encrypt Alura/images/8289979_25331.jpg");
-            background-size: 50%;
-        }
+
 
         section {
             margin: auto;
@@ -204,10 +195,7 @@ input {
       }
 
       @media only screen and (max-width: 600px) {
-        body {
-            background-image: url("/Users/edwardabreu/Documents/code/Encrypt Alura/images/8289979_25331.jpg");
-            background-size: 70%;
-        }
+
 
         section {
             margin: auto;
@@ -219,13 +207,47 @@ input {
             padding-right: 32px; 
             border-radius: 12px;
         }
-            
+        .buttons{
+            display: inline-block;
+
+           width: 100%;
+           height: max-content }
+           
+           
+               .boton1 {
+                   padding: 18px 0px;
+                   width: 58.85%;
+                   margin: auto 0 ;
+                   border: solid #131313 1px ;
+                   border-radius: 8px;
+                   font-size: 16px;
+                   font-family: 'Quicksand', sans-serif;
+                   border: none;
+                   background-color: rgb(47, 176, 246);
+                   }
+           
+                   .boton2 {
+                       padding: 18px 0px;
+                       width: 40%;
+                       margin: auto 0 ;
+                       border: solid #131313 1px ;
+                       border-radius: 8px;
+                       font-size: 16px;
+                       font-family: 'Quicksand', sans-serif;
+                       border: none;
+                       background-color: rgb(47, 176, 246);
+                       }
+                   
+
+           
+
+
+
+
       }
 
       @media only screen and (max-width: 500px) {
-        body {
-          background-color: rgb(148, 8, 92);
-        }
+
 
         section {
             margin: auto;
@@ -293,18 +315,6 @@ input {
                 font-family: 'Quicksand', sans-serif;
             }
                 
-                input {
-                    padding: 18px 0px;
-                    width: 100%;
-                    margin: auto 0 ;
-                    border: solid #131313 1px ;
-                    border-radius: 8px;
-                    font-size: 16px;
-                    border: none;
-                    background-color: rgb(47, 176, 246);
-                    }
-                
-            }
 
 
 
@@ -322,13 +332,11 @@ input {
 
 
             @media only screen and (max-width: 375px) {
-                body {
-                  background-color: rgb(20, 68, 173);
-                }
+   
         
                 section {
                     margin: auto;
-                    width: 333px;
+                    width: 322px;
                     height: max-content;
                     border: solid #aeaeae 1px ;
                     padding:20px; 
@@ -362,7 +370,7 @@ input {
                     .textarea1 {
                     border: none;
                         width: 100%;
-                        height: 200px;
+                        height: 198px;
                         margin:  0 0 12px 0 ;
                         padding: 8px 0;
                         border-radius: 8px;
@@ -371,19 +379,41 @@ input {
                     .textarea2 {
                         border: none;
                             width: 100%;
-                            height: 125px;
+                            height: 134px;
                             margin:  0 0 12px 0 ;
                             padding: 8px 0;
                             border-radius: 8px;
                         }
-                        input {
-                            padding: 14px 0px;
-                            width: 100%;
-                            margin: auto 0 ;
-                            border: solid #131313 1px ;
-                            border-radius: 8px;
-                            font-size: 16px;
-                            border: none;
-                            background-color: rgb(47, 176, 246);
-                            }
+
+                        .buttons{
+                            display: inline-block;
+                
+                           width: 100%;
+                           height: max-content }
+                           
+                           
+                               .boton1 {
+                                   padding: 18px 0px;
+                                   width: 57.85%;
+                                   margin: auto 0 ;
+                                   border: solid #131313 1px ;
+                                   border-radius: 8px;
+                                   font-size: 16px;
+                                   font-family: 'Quicksand', sans-serif;
+                                   border: none;
+                                   background-color: rgb(47, 176, 246);
+                                   }
+                           
+                                   .boton2 {
+                                       padding: 18px 0px;
+                                       width: 40%;
+                                       margin: auto 0 ;
+                                       border: solid #131313 1px ;
+                                       border-radius: 8px;
+                                       font-size: 16px;
+                                       font-family: 'Quicksand', sans-serif;
+                                       border: none;
+                                       background-color: rgb(47, 176, 246);
+                                       }
+
                     }
