@@ -1,7 +1,10 @@
 body {
     margin: 0px;
-    background-image: url("/Users/edwardabreu/Documents/code/Encrypt Alura/images/8289979_25331.jpg");
+
+    /*background-image: url("/Users/edwardabreu/Documents/code/Encrypt Alura/images/8289979_25331.jpg");
     background-size: 50%;
+    */
+    background-color: #e8e8e8;
 
 }
 
@@ -17,9 +20,13 @@ section {
 
 }
 
+div img {
+    width:380px;
+}
+
 .grid-container {
 display: grid;
-grid-template-rows: 120px 600px;
+grid-template-rows: 120px 580px;
 grid-template-columns: 70% 30%;
 gap: 14px
 ;
@@ -27,31 +34,47 @@ gap: 14px
 }
 
 .grid-item1{
-background-color: aquamarine;
+display: flex;
+justify-content: center;
+background-color: rgb(39, 47, 57);
 grid-column: span 2 ;
-
 }
 
 .grid-item2{
-background-color: rgb(189, 19, 141);
+/* background-color: rgb(189, 19, 141); */
 grid-row: span 1;
+
+
 
 }
 
 .grid-item3{
-background-color: rgb(223, 255, 127);
+/* background-color: rgb(223, 255, 127); */
 grid-column: span 1;
+
 
 }
 
 .textarea1 {
 border: none;
+background-color: none;
     width: 100%;
     height: 500px;
     margin:  0 0 12px 0 ;
     padding: 8px 0;
     border-radius: 8px;
+   /* box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.15);*/
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+   
+
+
 }
+.grid-item3{
+   
+  
+    }
 
 .textarea2 {
     border: none;
@@ -60,8 +83,48 @@ border: none;
         margin:  0 0 12px 0 ;
         padding: 8px 0;
         border-radius: 8px;
+        /* box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.15);*/
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Quicksand', sans-serif;
     }
     
+
+
+    .buttons{
+        display: inline-block;
+    background-color: antiquewhite;   
+width: 100%;
+height: max-content }
+
+
+    .boton1 {
+        padding: 18px 0px;
+        width: 59%;
+        margin: auto 0 ;
+        border: solid #131313 1px ;
+        border-radius: 8px;
+        font-size: 16px;
+        font-family: 'Quicksand', sans-serif;
+        border: none;
+        background-color: rgb(47, 176, 246);
+        }
+
+        .boton2 {
+            padding: 18px 0px;
+            width: 40%;
+            margin: auto 0 ;
+
+            border: solid #131313 1px ;
+            border-radius: 8px;
+            font-size: 16px;
+            font-family: 'Quicksand', sans-serif;
+            border: none;
+            background-color: rgb(47, 176, 246);
+            }
+        
+    
+
 
 input {
     padding: 18px 0px;
@@ -69,6 +132,10 @@ input {
     margin: auto 0 ;
     border: solid #131313 1px ;
     border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    border: none;
+    background-color: rgb(47, 176, 246);
     }
 
 
@@ -148,7 +215,11 @@ input {
             padding:14px; 
             border-radius: 12px;
         }
-                    
+
+        div img {
+            width:380px;
+        }
+                  
         .grid-container {
             display: grid;
 
@@ -156,27 +227,23 @@ input {
             grid-template-columns: 1fr;
             gap: 0px;
             row-gap: 10px;
-            ;
-            
             }
             
-                .grid-item1{
-                background-color: aquamarine;
-                grid-column: span 3 ;
-
-                
+            .grid-item1{
+                display: flex;
+                justify-content: center;
+                background-color: rgb(39, 47, 57);
+                grid-column: span 2 ;
                 }
                 
                 .grid-item2{
-                background-color: rgb(189, 19, 141);
+                /* background-color: rgb(189, 19, 141); */
                 grid-column: span 3 
-                
                 }
                 
                 .grid-item3{
-                background-color: rgb(223, 255, 127);
+                /*background-color: rgb(223, 255, 127); */
                 grid-column: span 3 
-                
                 }
             
             .textarea1 {
@@ -196,13 +263,18 @@ input {
                     padding: 8px 0;
                     border-radius: 8px;
                 }
-            input {
-                padding: 12px 0px;
-                width: 100%;
-                margin: auto 0 ;
-                border: solid #131313 1px ;
-                border-radius: 8px;
-                }
+                
+                input {
+                    padding: 18px 0px;
+                    width: 100%;
+                    margin: auto 0 ;
+                    border: solid #131313 1px ;
+                    border-radius: 8px;
+                    font-size: 16px;
+                    border: none;
+                    background-color: rgb(47, 176, 246);
+                    }
+                
             }
 
 
@@ -220,7 +292,7 @@ input {
 
 
 
-            @media only screen and (max-width: 376px) {
+            @media only screen and (max-width: 375px) {
                 body {
                   background-color: rgb(20, 68, 173);
                 }
@@ -248,13 +320,13 @@ input {
                         }
                         
                         .grid-item2{
-                        background-color: rgb(189, 19, 141);
+                        /* background-color: rgb(189, 19, 141); */
                         grid-column: span 3 
 
                         }
                         
                         .grid-item3{
-                        background-color: rgb(223, 255, 127);
+                        /* background-color: rgb(223, 255, 127); */
                         grid-column: span 3 
                         }
                     
@@ -275,11 +347,14 @@ input {
                             padding: 8px 0;
                             border-radius: 8px;
                         }
-                    input {
-                        padding: 14px 0px;
-                        width: 100%;
-                        margin: auto 0 ;
-                        border: solid #131313 1px ;
-                        border-radius: 8px;
-                        }
+                        input {
+                            padding: 14px 0px;
+                            width: 100%;
+                            margin: auto 0 ;
+                            border: solid #131313 1px ;
+                            border-radius: 8px;
+                            font-size: 16px;
+                            border: none;
+                            background-color: rgb(47, 176, 246);
+                            }
                     }
