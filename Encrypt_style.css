@@ -9,7 +9,7 @@ background-color: #e8e8e8;
 
 section {
 margin: auto;
-margin-top: 230px;
+margin-top: 100px;
 width: 1000px;
 height: max-content;
 border: solid #aeaeae 1px ;
@@ -75,7 +75,7 @@ border: none;
         background-image: url(c18204699988879836cf630cac112d37e6cf933f.png);
         background-repeat: no-repeat;
         background-position: 50% 10%;
-        background-color: rgb(55, 115, 150);
+        background-color: rgb(182, 223, 247);
         height: 503px;
         margin:  0 0 12px 0 ;
         padding: 8px 0;
@@ -159,7 +159,8 @@ height: max-content }
 
         section {
             margin: auto;
-            margin-top: 230px;
+            margin-top: 100px;
+            margin-top: 100px;
             width: 800px;
             height: max-content;
             border: solid #aeaeae 1px ;
@@ -175,7 +176,7 @@ height: max-content }
 
         section {
             margin: auto;
-            margin-top: 230px;
+            margin-top: 100px;
             width: 650px;
             height: max-content;
             border: solid #aeaeae 1px ;
@@ -191,7 +192,7 @@ height: max-content }
 
         section {
             margin: auto;
-            margin-top: 230px;
+            margin-top: 100px;
             width: 500px;
             height: max-content;
             border: solid #aeaeae 1px ;
@@ -243,7 +244,7 @@ height: max-content }
 
         section {
             margin: auto;
-            margin-top: 230px;
+            margin-top: 100px;
             width: 400px;
             height: max-content;
             border: solid #aeaeae 1px ;
