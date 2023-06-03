@@ -1,64 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<title></title>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 
-<script>
-/*
-
-    // ENCRIPTADOR //
-    
-    let text_encr= "gato"
-
-    function encr()
-    {
-        text_encr = text_encr.replace(/e/ig, "enter" );
-        text_encr = text_encr.replace(/i/ig, "imes" );
-        text_encr = text_encr.replace(/a/ig, "ai" );
-        text_encr = text_encr.replace(/o/ig, "ober" );
-        text_encr = text_encr.replace(/u/ig, "ufat" );
-        document.write(text)
-    }
-
-    encr()
-    */
-
-    let text= "fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober!" 
-
-
-
-function desencr()
-{
-    text = text.replace(/enter/ig, "e" );
-    text = text.replace(/imes/ig, "i" );
-    text = text.replace(/ai/ig, "a" );
-    text = text.replace(/ober/ig, "o" );
-    text = text.replace(/ufat/ig, "u" );
-    document.write(text)
-}
-
-desencr()
-
-function maysmin (){
-
-    
-}
-
-
-
-
-
-
-
-
-</script>
+    <!-- estilos css -->
+    <link rel="stylesheet" href="Encrypt_style.css">
 
 </head>
-
 <body>
-    <section></section>
+    <section>
+        <div class="grid-container">
+
+            <div class="grid-item1">
+                <img src="encriptalogo.png" alt="" >
+            </div>
+
+            <div class="grid-item2">
+                <textarea class="textarea1" id="encriptar "type="text"placeholder="Ingrese el texto que deseas encriptar aquí"  > </textarea>
+               <h6> Solo letras minúsculas y sin acento</h6> 
+                <div class="buttons">
+                    <input class="boton1" type="submit"  onclick="btnEncriptar()" value="Encriptar"></input>
+
+                    <input class="boton2" onclick="btnDesencriptar()"  type="submit" value="Desencriptar"></input>
+    
+                </div>
+
+            </div>
+            
+            <div class="grid-item3">
+                
+               <textarea class="textarea2" id="texto" type="text" placeholder="Escribe aquí"> </textarea>
+            
+                     <input class="botoncopiar" onclick="copiar()" type="submit" value="Copiar"></input>
+
+            </div>
+
+            </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
 </body>
 </html>
+
+
